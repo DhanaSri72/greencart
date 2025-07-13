@@ -70,6 +70,8 @@ import quinoa_image from "./quinoa_image.png";
 import brown_rice_image from "./brown_rice_image.png";
 import barley_image from "./barley_image.png";
 
+export const url="https://green-cart-backend-tye1.onrender.com"
+
 export const assets = {
   logo,
   search_icon,
