@@ -9,6 +9,8 @@ axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
 export const AppContext = createContext();
 export const AppContextProvider = ({children})=>{
 
+    const url="https://green-cart-backend-tye1.onrender.com"
+
     const currency = import.meta.env.VITE_CURRENCY;
 
     const navigate = useNavigate();
